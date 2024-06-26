@@ -27,7 +27,6 @@ class Stop(models.Model):
         return self.name
 
 
-
 class Timetable(models.Model):
     WEEKDAY = 'weekday'
     SATURDAY = 'saturday'
